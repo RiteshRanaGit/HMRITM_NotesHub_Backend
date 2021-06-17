@@ -11,6 +11,8 @@ const notes = require('./routes/api/notes');
 const subject = require('./routes/api/subject');
 const classnotice = require('./routes/api/classnotice');
 const subjectnotice = require('./routes/api/subjectnotice');
+const event = require('./routes/api/event');
+
 
 
 require('dotenv').config();
@@ -59,6 +61,8 @@ app.use('/api/notes', notes);
 app.use('/api/subject', subject);
 app.use('/api/classnotice', classnotice);
 app.use('/api/subjectnotice', subjectnotice);
+app.use('/api/event', event);
+
 
 
 
