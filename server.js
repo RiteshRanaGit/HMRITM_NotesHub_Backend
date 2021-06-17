@@ -21,7 +21,7 @@ const multer = require('multer');
 
 const app = express();
 
-//Body parser Middleware
+//Body parser Middleware`
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json()); 
 
